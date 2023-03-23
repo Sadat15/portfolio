@@ -9,6 +9,7 @@ import {
 import Home from "./pages/Home.js";
 import About from "./pages/About.js";
 import Projects from "./pages/Projects.js";
+import Footer from "./components/Footer";
 
 function App() {
   const router = createBrowserRouter(
@@ -31,12 +32,9 @@ function App() {
 const Root = () => {
   return (
     <>
-      <div>
-        <Navigation />
-      </div>
-      <div>
-        <Outlet />
-      </div>
+      <Navigation />
+      <Outlet />
+      {/* <Footer /> */}
     </>
   );
 };

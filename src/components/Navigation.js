@@ -57,7 +57,7 @@ function Navigation() {
                 textDecoration: "none",
               }}
             >
-              Sadat M
+              Sadat
             </Typography>
 
             <Box
@@ -118,7 +118,7 @@ function Navigation() {
                 textDecoration: "none",
               }}
             >
-              Sadat M
+              Sadat
             </Typography>
             <Box
               sx={{
