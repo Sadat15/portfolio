@@ -19,7 +19,7 @@ function Home() {
             </figure>
           </div>
           <div className="card-content is-size-5">
-            I am a full-stack software developer with a passion for technology
+            I'm a Full Stack Software Developer with a passion for technology
             and problem-solving. With a background in finance, I bring a unique
             perspective to my work that combines analytical thinking with a
             creative approach to problem-solving. Throughout my career, I have
