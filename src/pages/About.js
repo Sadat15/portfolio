@@ -1,10 +1,15 @@
-import { Card } from "@mui/material";
+import Container from "@mui/material/Container";
+import { Grid } from "@mui/material";
+import SkillCard from "../components/Card";
 
 function About() {
   return (
-    <div>
-      <Card></Card>
-    </div>
+    <Container>
+      <Grid container spacing={2}>
+        <SkillCard title={"Front end"} />
+        <SkillCard title={"Back end"} />
+      </Grid>
+    </Container>
   );
 }
 
