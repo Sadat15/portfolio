@@ -1,5 +1,11 @@
+import { Card } from "@mui/material";
+
 function About() {
-  return <div>About</div>;
+  return (
+    <div>
+      <Card></Card>
+    </div>
+  );
 }
 
 export default About;

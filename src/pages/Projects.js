@@ -1,5 +1,11 @@
+import Card from "@mui/material/Card";
+
 function Projects() {
-  return <div>Projects</div>;
+  return (
+    <div>
+      <Card></Card>
+    </div>
+  );
 }
 
 export default Projects;
