@@ -6,8 +6,8 @@ function About() {
   return (
     <Container>
       <Grid container spacing={2}>
-        <SkillCard title={"Front end"} />
-        <SkillCard title={"Back end"} />
+        <SkillCard title={"Front end"} content={"Testing"} />
+        <SkillCard title={"Back end"} content={"Testing"} />
       </Grid>
     </Container>
   );
