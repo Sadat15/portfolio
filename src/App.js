@@ -1,42 +1,27 @@
-import Navigation from "./components/Navigation";
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  Outlet,
-  RouterProvider,
-} from "react-router-dom";
-import Home from "./pages/Home.js";
-import About from "./pages/About.js";
-import Projects from "./pages/Projects.js";
+import "./App.css";
+import { useEffect } from "react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Skills from "./components/Skills";
 import Footer from "./components/Footer";
+import Projects from "./components/Projects";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
-  const router = createBrowserRouter(
-    createRoutesFromElements(
-      <Route path="/" element={<Root />}>
-        <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-      </Route>
-    )
-  );
-
+  useEffect(() => {
+    document.title = "Sadat";
+    AOS.init();
+  }, []);
   return (
-    <div>
-      <RouterProvider router={router} />
+    <div className="px-6 lg:px-20 xl:px-36 bg-dark-500">
+      <Navbar />
+      <Home />
+      <Skills />
+      <Projects />
+      <Footer />
     </div>
   );
 }
-
-const Root = () => {
-  return (
-    <>
-      <Navigation />
-      <Outlet />
-      {/* <Footer /> */}
-    </>
-  );
-};
 
 export default App;
