@@ -21,7 +21,7 @@ import {
 export default function Skills() {
   const settings = {
     dots: false,
-    autoplay: true,
+    // autoplay: true,
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
