@@ -68,7 +68,12 @@ export default function Home() {
             </li>
           </ul>
         </div>
-        <img src={hr} className="w-full md:h-2 absolute bottom-0" alt="hr" />
+        <img
+          id="test"
+          src={hr}
+          className="w-full md:h-2 absolute bottom-0"
+          alt="hr"
+        />
       </div>
     </>
   );

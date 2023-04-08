@@ -15,14 +15,14 @@ export default function Projects() {
           name="Face Recognition App"
           screenshot={faceRecognitionApp}
           desc="Web application designed to detect human faces in images and recognise them using artificial intelligence."
-          tools="JavaScript, Node.js, Express, PostgreSQL, Tachyons, MUI"
+          tools="JavaScript, React, Node.js, Express, PostgreSQL, Tachyons, MUI"
           gitLink={"https://github.com/Sadat15/face-recognition-search"}
         />
         <ProjectCard
           name="Cocktail Recipe Search"
           screenshot={cocktails}
           desc="Recipe app allowing users to search for recipes with given ingredients with the purpose of reducing waste."
-          tools="JavaScript, Node.js, Express, MongoDB, Handlebars, Jest, Cypress"
+          tools="JavaScript, React, Node.js, Express, MongoDB, Handlebars, Jest, Cypress"
           gitLink={"https://github.com/Sadat15/ingredient-based-recipe-app"}
         />
         <ProjectCard

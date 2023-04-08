@@ -16,6 +16,7 @@ import {
   SiJavascript,
   SiTailwindcss,
   SiMui,
+  SiRedux,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -51,6 +52,10 @@ export default function Skills() {
           <SkillCard
             name="React"
             logo={<DiReact size={100} className="w-20 max-h-20 mx-auto" />}
+          />
+          <SkillCard
+            name="Redux"
+            logo={<SiRedux size={100} className="w-20 max-h-20 mx-auto" />}
           />
           <SkillCard
             name="Tailwind"
