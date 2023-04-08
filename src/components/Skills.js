@@ -15,6 +15,7 @@ import {
   SiGithub,
   SiJavascript,
   SiTailwindcss,
+  SiMui,
 } from "react-icons/si";
 
 export default function Skills() {
@@ -40,30 +41,30 @@ export default function Skills() {
             logo={<SiJavascript size={100} className="w-20 max-h-20 mx-auto" />}
           />
           <SkillCard
-            name="Tailwind"
-            logo={
-              <SiTailwindcss size={100} className="w-20 max-h-20 mx-auto" />
-            }
-          />
-          <SkillCard
-            name="React"
-            logo={<DiReact size={100} className="w-20 max-h-20 mx-auto" />}
-          />
-          <SkillCard
-            name="Git"
-            logo={<SiGithub size={100} className="w-20 max-h-20 mx-auto" />}
+            name="Node.js"
+            logo={<DiNodejs size={100} className="w-20 max-h-20 mx-auto" />}
           />
           <SkillCard
             name="Express"
             logo={<SiExpress size={100} className="w-20 max-h-20 mx-auto" />}
           />
           <SkillCard
-            name="Node.js"
-            logo={<DiNodejs size={100} className="w-20 max-h-20 mx-auto" />}
+            name="React"
+            logo={<DiReact size={100} className="w-20 max-h-20 mx-auto" />}
           />
           <SkillCard
-            name="Ruby"
-            logo={<DiRuby size={100} className="w-20 max-h-20 mx-auto" />}
+            name="Tailwind"
+            logo={
+              <SiTailwindcss size={100} className="w-20 max-h-20 mx-auto" />
+            }
+          />
+          <SkillCard
+            name="Material UI"
+            logo={<SiMui size={100} className="w-20 max-h-20 mx-auto" />}
+          />
+          <SkillCard
+            name="Git"
+            logo={<SiGithub size={100} className="w-20 max-h-20 mx-auto" />}
           />
           <SkillCard
             name="PostgreSQL"
@@ -72,6 +73,10 @@ export default function Skills() {
           <SkillCard
             name="MongoDB"
             logo={<DiMongodb size={100} className="w-20 max-h-20 mx-auto" />}
+          />
+          <SkillCard
+            name="Ruby"
+            logo={<DiRuby size={100} className="w-20 max-h-20 mx-auto" />}
           />
         </Slider>
       </div>

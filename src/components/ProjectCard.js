@@ -1,4 +1,10 @@
-export default function ProjectCard({ name, desc }) {
+export default function ProjectCard({
+  name,
+  desc,
+  screenshot,
+  tools,
+  gitLink,
+}) {
   return (
     <div
       data-aos="fade-up"
@@ -6,10 +12,18 @@ export default function ProjectCard({ name, desc }) {
       data-aos-offset="100"
       className="w-full md:w-2/6 bg-dark-100 rounded-md py-4 px-4"
     >
-      {/* <img src={props.img} className="w-20 max-h-20 mx-auto" alt={props.name}></img> */}
+      <img
+        src={screenshot}
+        className="w-full h-35 mx-auto object-cover"
+        alt={name}
+      ></img>
       <div className="mt-2">
         <h1 className="font-bold md:text-xl">{name}</h1>
+        <p className="font-light">Tools: {tools}</p>
         <p className="font-light text-gray-400">{desc}</p>
+        <a href={gitLink}>
+          <p className="font-light text-gray-400">Click here for GitHub link</p>
+        </a>
       </div>
     </div>
   );
