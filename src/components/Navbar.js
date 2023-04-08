@@ -18,7 +18,7 @@ export default function Navbar() {
             </a>
           </li>
           <li className="p-4">
-            <a href="#honors" className="hover:underline">
+            <a href="#projects" className="hover:underline">
               Projects
             </a>
           </li>

@@ -6,7 +6,7 @@ import cocktails from "../assets/projects/cocktail_recipe.jpeg";
 
 export default function Projects() {
   return (
-    <div id="honors" className="mt-4 text-white">
+    <div id="projects" className="mt-4 text-white">
       <h1 className="text-2xl font-bold">Projects</h1>
       <p className="font-light text-gray-400">Here are some of my projects</p>
 
