@@ -22,7 +22,9 @@ export default function ProjectCard({
         <p className="font-light">Tools: {tools}</p>
         <p className="font-light text-gray-400">{desc}</p>
         <a href={gitLink}>
-          <p className="font-light text-gray-400">Click here for GitHub link</p>
+          <p className="font-light text-gray-400 hover:underline">
+            Click here for GitHub link
+          </p>
         </a>
       </div>
     </div>
