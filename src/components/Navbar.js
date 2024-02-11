@@ -23,14 +23,14 @@ export default function Navbar() {
             </a>
           </li>
         </ul>
-        <a
+        {/* <a
           href={cv}
           rel="noreferrer"
           target="_blank"
           className=" bg-teal-500 rounded-full px-4 py-1 border border-teal-800 border border-4"
         >
           CV
-        </a>
+        </a> */}
       </div>
     </div>
   );
