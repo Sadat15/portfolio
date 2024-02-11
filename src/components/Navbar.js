@@ -1,4 +1,4 @@
-import cv from "../assets/cv.pdf";
+// import cv from "../assets/cv.pdf";
 import { GiComputerFan } from "react-icons/gi";
 
 export default function Navbar() {
